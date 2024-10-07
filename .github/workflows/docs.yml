@@ -27,6 +27,12 @@ jobs:
           run_install: true
           version: 9.12.1
 
+       - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.6.0
+        with:
+          source: _scss/main.scss
+          destination: /tmp/repo-name/assets/css/main.css    
+
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
