@@ -7,8 +7,8 @@ export default defineUserConfig({
   base: "/websitetest/",
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'Star Magnetic Technology',
+  description: 'SMT test Site',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
